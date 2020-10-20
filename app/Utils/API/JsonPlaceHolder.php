@@ -9,6 +9,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class JsonPlaceHolder
 {
+
     /**
      * @return mixed
      * @throws GuzzleException

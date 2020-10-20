@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f0e47a-b094-47d3-bc6a-52e2cabc377f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +185,7 @@
       <updated>1602906874260</updated>
       <workItem from="1602906875380" duration="15296000" />
       <workItem from="1602931615588" duration="171000" />
-      <workItem from="1602931828422" duration="71048000" />
+      <workItem from="1602931828422" duration="71484000" />
     </task>
     <servers />
   </component>
