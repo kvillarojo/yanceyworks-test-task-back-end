@@ -162,6 +162,11 @@ class CompanyController extends BaseController
         return $this->noContentResponse();
     }
 
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function uploadLogo(Request $request, $id)
     {
         $image = new UploadImage($request);

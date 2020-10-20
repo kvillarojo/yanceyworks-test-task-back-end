@@ -17,6 +17,10 @@ class UploadImage
     private $filepath;
     private $filename;
 
+    /**
+     * UploadImage constructor.
+     * @param $request
+     */
     public function __construct($request)
     {
         $this->image = $request;
@@ -40,15 +44,22 @@ class UploadImage
         );
     }
 
+    /**
+     * @param $dir
+     */
     public function setUploadDir($dir){
         $this->upload_dir = $dir;
     }
 
+    /**
+     * @return mixed
+     */
     public function getUploadDir(){
         return $this->upload_dir;
     }
 
-    public function getFileName() {
+    public function getFileName(): string
+    {
         return $this->filename ;
     }
 
