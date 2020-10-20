@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f0e47a-b094-47d3-bc6a-52e2cabc377f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/DataConflictException.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Facades/JsonPlaceHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Auth/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Auth/PostLoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/BaseFormRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Upload/PostImageUpload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Response/Api/v1/ResponseTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Companies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/CompanyEmployees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Employees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/ApiFacadeServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" afterDir="false" />
@@ -15,11 +32,21 @@
       <change afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepositoryInterface.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Repositories/User/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Traits/Upload/FileUpload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Upload/UploadImage.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CompaniesFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/EmployeesFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_083219_create_employees_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_083334_create_companies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_084606_create_company_employees_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/CompanySeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/EmployeeSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/test-task-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-task-crud.iml" afterDir="false" />
@@ -213,7 +240,7 @@
       <updated>1602906874260</updated>
       <workItem from="1602906875380" duration="15296000" />
       <workItem from="1602931615588" duration="171000" />
-      <workItem from="1602931828422" duration="69459000" />
+      <workItem from="1602931828422" duration="70153000" />
     </task>
     <servers />
   </component>
