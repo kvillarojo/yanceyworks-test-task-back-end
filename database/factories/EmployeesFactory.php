@@ -27,4 +27,5 @@ class EmployeesFactory extends Factory
             'last_name' => $this->faker->lastName,
         ];
     }
+
 }

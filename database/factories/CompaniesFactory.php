@@ -15,6 +15,7 @@ class CompaniesFactory extends Factory
      */
     protected $model = Companies::class;
 
+
     /**
      * Define the model's default state.
      *

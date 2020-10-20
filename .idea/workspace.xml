@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f0e47a-b094-47d3-bc6a-52e2cabc377f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Facades/JsonPlaceHolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Facades/JsonPlaceHolder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/ApiFacadeServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/ApiFacadeServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +186,7 @@
       <updated>1602906874260</updated>
       <workItem from="1602906875380" duration="15296000" />
       <workItem from="1602931615588" duration="171000" />
-      <workItem from="1602931828422" duration="71484000" />
+      <workItem from="1602931828422" duration="71795000" />
     </task>
     <servers />
   </component>

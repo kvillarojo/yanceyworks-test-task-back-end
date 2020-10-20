@@ -8,7 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Companies extends BaseModel
 {
 
-    public function employees()
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function employees(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
         return $this->belongsToMany(
             'App\Models\Employees',
@@ -18,15 +21,22 @@ class Companies extends BaseModel
         );
     }
 
+    /**
+     * @param $value
+     * @return bool
+     */
     public function hasEmail($value)
     {
         return !$this->where('email', $value)->exists();
     }
 
+    /**
+     * @param $value
+     * @return bool
+     */
     public function hasPhoneNumber($value)
     {
         return !$this->where('phone', $value)->exists();
     }
-
 
 }
