@@ -3,13 +3,15 @@
 
 namespace App\Repositories\CompanyEmployees;
 
-
 use App\Models\CompanyEmployees;
 use App\Repositories\BaseRepository;
-use Illuminate\Database\Eloquent\Model;
 
 class CompanyEmployeeRepository extends BaseRepository implements CompanyEmployeeRepositoryInterface
 {
+    /**
+     * CompanyEmployeeRepository constructor.
+     * @param CompanyEmployees $model
+     */
     public function __construct(CompanyEmployees $model)
     {
         parent::__construct($model);

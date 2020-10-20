@@ -8,11 +8,10 @@ class UniquePhoneNumber implements Rule
 {
     /**
      * Create a new rule instance.
-     *
      */
     public function __construct()
     {
-
+        //
     }
 
     /**

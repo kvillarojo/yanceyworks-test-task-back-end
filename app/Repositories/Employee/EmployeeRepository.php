@@ -11,11 +11,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class EmployeeRepository extends BaseRepository implements EmployeeRepositoryInterface
 {
+    /**
+     * EmployeeRepository constructor.
+     * @param Employees $model
+     */
     public function __construct(Employees $model)
     {
         parent::__construct($model);
     }
 
+    /**
+     * @param $data
+     */
     public function insert($data)
     {
         $this->create([
@@ -24,12 +31,19 @@ class EmployeeRepository extends BaseRepository implements EmployeeRepositoryInt
         ]);
     }
 
+    /**
+     * @param $id
+     */
     public function remove($id)
     {
         $this->model->where('id', $id)
             ->delete();
     }
 
+    /**
+     * @param $data
+     * @param $id
+     */
     public function update($data, $id)
     {
         $this->model->where('id', $id)
@@ -39,11 +53,18 @@ class EmployeeRepository extends BaseRepository implements EmployeeRepositoryInt
             ]);
     }
 
+    /**
+     * @return mixed
+     */
     public function index()
     {
         return $this->model->paginate(10);
     }
 
+    /**
+     * @param $data
+     * @param $id
+     */
     public function assignToCompany($data, $id)
     {
         CompanyEmployees::create([

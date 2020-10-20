@@ -38,5 +38,4 @@ class PostCompanyRequest extends FormRequest
             ]
         ];
     }
-
 }

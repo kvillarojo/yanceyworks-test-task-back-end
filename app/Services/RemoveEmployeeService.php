@@ -15,11 +15,19 @@ class RemoveEmployeeService
      */
     private $employeeInterface;
 
+    /**
+     * RemoveEmployeeService constructor.
+     * @param EmployeeRepositoryInterface $employeeInterface
+     */
     public function __construct(EmployeeRepositoryInterface $employeeInterface)
     {
         $this->employeeInterface = $employeeInterface;
     }
 
+    /**
+     * @param $id
+     * @throws DataConflictException
+     */
     public function remove($id)
     {
         $exist = CompanyEmployees::where('employee_id', $id)
@@ -31,5 +39,4 @@ class RemoveEmployeeService
 
         $this->employeeInterface->remove($id);
     }
-
 }

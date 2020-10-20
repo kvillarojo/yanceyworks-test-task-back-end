@@ -5,63 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f0e47a-b094-47d3-bc6a-52e2cabc377f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/DataConflictException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Facades/JsonPlaceHolder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Auth/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Auth/PostLoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/BaseFormRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Upload/PostImageUpload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Response/Api/v1/ResponseTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Companies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/CompanyEmployees.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Employees.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/ApiFacadeServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/User/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/Upload/FileUpload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Upload/UploadImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Utils/API/JsonPlaceHolder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CompaniesFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/EmployeesFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_083219_create_employees_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_083334_create_companies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_17_084606_create_company_employees_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/CompanySeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/EmployeeSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test-task-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-task-crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Company/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Employee/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Company/PostCompanyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Api/v1/Employee/PostEmployeeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Company/CompanyRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CompanyEmployees/CompanyEmployeeRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Employee/EmployeeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rules/UniqueEmailAddress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rules/UniquePhoneNumber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/PostCompanyEmployees.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/RemoveEmployeeService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +200,7 @@
       <updated>1602906874260</updated>
       <workItem from="1602906875380" duration="15296000" />
       <workItem from="1602931615588" duration="171000" />
-      <workItem from="1602931828422" duration="70153000" />
+      <workItem from="1602931828422" duration="71048000" />
     </task>
     <servers />
   </component>
@@ -279,10 +239,10 @@
       <screen x="0" y="25" width="3840" height="1055" />
     </state>
     <state x="624" y="254" key="run.anything.popup/0.25.3840.1055@0.25.3840.1055" timestamp="1603062735634" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1603161510283">
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1603163206719">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1603161510283" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1603163206719" />
     <state x="532" y="379" width="828" height="471" key="search.everywhere.popup/0.25.3840.1055@0.25.3840.1055" timestamp="1603143544633" />
   </component>
 </project>

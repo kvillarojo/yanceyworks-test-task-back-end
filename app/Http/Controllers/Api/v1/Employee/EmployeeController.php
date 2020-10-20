@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\DB;
 
 class EmployeeController extends BaseController
 {
-
     /**
      * @var EmployeeRepositoryInterface
      */
@@ -52,8 +51,6 @@ class EmployeeController extends BaseController
     {
         try {
             $this->employeeInterface->insert($request);
-        } catch (QueryException $e) {
-            return $this->queryExceptionResponse($e);
         } catch (\Exception $e) {
             return $this->errorResponse($e);
         }
@@ -111,6 +108,8 @@ class EmployeeController extends BaseController
     }
 
     /**
+     * Populate employees table with data from jsonplaceholder api
+     *
      * @return \Illuminate\Http\JsonResponse
      * @throws \GuzzleHttp\Exception\GuzzleException
      */

@@ -2,7 +2,6 @@
 
 namespace App\Rules;
 
-use App\Models\Companies;
 use Illuminate\Contracts\Validation\Rule;
 
 class UniqueEmailAddress implements Rule

@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 
 class CompanyController extends BaseController
 {
+
     /**
      * @var CompanyRepositoryInterface
      */

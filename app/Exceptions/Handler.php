@@ -43,18 +43,18 @@ class Handler extends ExceptionHandler
     public function register()
     {
         $this->renderable(function (Throwable $e, $request) {
-            if ($e instanceof ValidationException ) {
+            if ($e instanceof ValidationException) {
                 return $this->customErrorResponse(
                     Response::HTTP_UNPROCESSABLE_ENTITY,
                     'Invalid Data Entries',
                     $e->errors()
                 );
-            }else if($e instanceof NotFoundHttpException) {
+            } else if ($e instanceof NotFoundHttpException) {
                 return $this->customErrorResponse(
                     Response::HTTP_UNPROCESSABLE_ENTITY,
                     'Entry not found'
                 );
-            }else if ($e instanceof AuthenticationException
+            } else if ($e instanceof AuthenticationException
                 || $e instanceof AuthorizationException
                 || $e instanceof UnauthorizedHttpException) {
 
@@ -62,7 +62,7 @@ class Handler extends ExceptionHandler
                     Response::HTTP_UNAUTHORIZED,
                     $e->getMessage(),
                 );
-            }else if($e instanceof DataConflictException){
+            } else if ($e instanceof DataConflictException) {
                 return $this->customErrorResponse(
                     Response::HTTP_CONFLICT,
                     $e->getMessage(),

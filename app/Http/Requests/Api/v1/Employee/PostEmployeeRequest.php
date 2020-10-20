@@ -24,7 +24,8 @@ class PostEmployeeRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'first_name' => 'required|String|min:3',
+            'last_name' => 'required|String|min:3'
         ];
     }
 }

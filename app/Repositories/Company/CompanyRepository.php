@@ -12,6 +12,10 @@ use Illuminate\Http\Request;
 
 class CompanyRepository extends BaseRepository implements CompanyRepositoryInterface
 {
+    /**
+     * CompanyRepository constructor.
+     * @param Companies $model
+     */
     public function __construct(Companies $model)
     {
         parent::__construct($model);
@@ -40,6 +44,9 @@ class CompanyRepository extends BaseRepository implements CompanyRepositoryInter
             ]);
     }
 
+    /**
+     * @return mixed
+     */
     public function index()
     {
         return $this->model->paginate(10);
