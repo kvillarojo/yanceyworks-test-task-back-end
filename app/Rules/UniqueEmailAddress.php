@@ -35,6 +35,7 @@ class UniqueEmailAddress implements Rule
      */
     public function message()
     {
-        return 'Email Address Already Exist.';
+        return 'Email address alerady used.';
     }
+
 }
