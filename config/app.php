@@ -175,7 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        //Custom Service Providers
+        //Custom made Service Providers
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\ApiFacadeServiceProvider::class,
 
@@ -231,7 +231,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        //Custom Alias
+        //Custom made Aliases
         'JsonPlaceHolder' => App\Facades\JsonPlaceHolder::class,
 
     ],
