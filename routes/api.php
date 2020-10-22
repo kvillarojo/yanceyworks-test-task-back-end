@@ -36,6 +36,7 @@ Route::namespace('\App\Http\Controllers\Api\v1')
                     Route::resource('/employee', 'EmployeeController')->only([
                         'index', 'store', 'show', 'update', 'destroy'
                     ]);
+                    Route::get('/employees', 'EmployeeController@getEmployeesWithCompany');
                 });
 
             Route::namespace('Company')

@@ -63,7 +63,7 @@ trait ResponseTemplate
             'status' => Response::HTTP_BAD_REQUEST,
             'success' => false,
             'message' => 'A database query error has occurred.',
-            'errors' => $e->errors(),
+            'errors' => [],
             'data' => []
         ], $e);
     }

@@ -141,4 +141,18 @@ class EmployeeController extends BaseController
 
         return $this->insertSuccessfulResponse('Users imported successfully.');
     }
+
+    public function getEmployeesWithCompany()
+    {
+        try {
+            $employees = $this->employeeInterface->employeeWithCompany();
+        } catch (QueryException $e) {
+            dd($e);
+            return $this->queryExceptionResponse($e);
+        } catch (\Exception $e) {
+            return $this->errorResponse($e);
+        }
+
+        return $this->getSuccessfulResponse($employees);
+    }
 }
