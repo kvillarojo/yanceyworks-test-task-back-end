@@ -147,7 +147,6 @@ class EmployeeController extends BaseController
         try {
             $employees = $this->employeeInterface->employeeWithCompany();
         } catch (QueryException $e) {
-            dd($e);
             return $this->queryExceptionResponse($e);
         } catch (\Exception $e) {
             return $this->errorResponse($e);
