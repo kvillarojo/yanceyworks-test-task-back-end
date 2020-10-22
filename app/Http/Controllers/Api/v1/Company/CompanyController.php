@@ -94,6 +94,8 @@ class CompanyController extends BaseController
      */
     public function destroy($id)
     {
+        dd('hjashdajh');
+
         try {
             $this->companyInterFace->remove($id);
         } catch (\Exception $e) {

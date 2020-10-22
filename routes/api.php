@@ -41,7 +41,7 @@ Route::namespace('\App\Http\Controllers\Api\v1')
             Route::namespace('Company')
                 ->group(function () {
 
-                    Route::prefix('company')
+                    Route::prefix('companies')
                         ->group(function () {
                             Route::post('{id}', 'CompanyController@addNewEmployee');
                             Route::get('employees', 'CompanyController@getEmployees');
@@ -49,12 +49,11 @@ Route::namespace('\App\Http\Controllers\Api\v1')
                             Route::post('{id}/logo', 'CompanyController@uploadLogo');
 
                             Route::get('{id}/employees', 'CompanyController@getEmployeesByCompanyId');
-
-                            Route::resource('/', 'CompanyController')->only([
-                                'index', 'store', 'show', 'update', 'destroy'
-                            ]);
                         });
 
+                    Route::resource('/companies', 'CompanyController')->only([
+                        'index', 'store', 'show', 'update', 'destroy'
+                    ]);
                 });
         });
 
